@@ -1,0 +1,17 @@
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/GAToUnityCallbacks.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroEnd.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroHeaderBegin.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroSourceBegin.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAApplication.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAConfiguration.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGADebug.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAEvents.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAInput.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboard.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboardCallbacks.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGATypes.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAVersion.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGACallbacks.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAConfigurationCallbacks.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAKeyEventCallbacks.h
+/home/batiste/Documents/Projet_perso/Jumeau_Toulouse/TisseoTwinVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAMotionEventCallbacks.h

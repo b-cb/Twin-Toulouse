@@ -1,0 +1,54 @@
+# Ignorer le cache et les sorties de build Gradle
+.gradle/
+build/
+
+# Conserver le wrapper Gradle (important pour que les autres puissent compiler)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Fichiers générés par les IDE (IntelliJ, VS Code, Eclipse)
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
+
+# Dossiers temporaires et caches Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+
+# Fichiers de projet auto-générés (Visual Studio / Rider)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Builds Android (Fichiers d'installation pour le Quest 3)
+*.apk
+*.aab
+*.unityap
+
+# Fichiers OS
+.DS_Store
+Thumbs.db

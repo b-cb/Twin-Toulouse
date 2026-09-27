@@ -1,0 +1,60 @@
+plugins {
+    id 'java'
+    id 'application'
+    // Modifiez la version sur cette ligne
+    id 'org.springframework.boot' version '3.3.4'
+    id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.tisseo.twin'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    // Indique à Gradle où se trouve le point d'entrée de ton serveur
+    mainClass = 'com.tisseo.twin.TisseoTwinApplication'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 1. Cœur Spring Boot & Client REST
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    
+    // 2. Relais Temps Réel vers Unity
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+    
+    // 3. Gestion du Cache (Critique pour l'API Tisséo)
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
+    implementation 'com.github.ben-manes.caffeine:caffeine'
+
+    // 4. Traitement Spatial et Géométrique (pour le jumeau VR)
+    implementation 'org.locationtech.jts:jts-core:1.19.0'
+
+    // 5. Ingestion des flux GTFS-RT
+    // J'ai bumpé la version à 0.0.7 qui est plus stable sur les miroirs Maven récents
+// 5. Ingestion des flux GTFS-RT (Version officielle à jour)
+    implementation 'org.mobilitydata:gtfs-realtime-bindings:0.1.0'
+    // Tests
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // 6. Persistance locale et Ingestion GTFS (Topologie statique)
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'com.h2database:h2'
+    implementation 'org.apache.commons:commons-csv:1.10.0'
+
+    implementation 'com.google.transit:gtfs-realtime-bindings:0.0.4'
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
